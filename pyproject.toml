@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ecs_testing"
+version = "0.1.0"
+description = "A package/dependency set for demonstrating ECS concepts."
+authors = ["rfdoell <rfdoell@users.noreply.github.com>"]
+packages = [
+  { include = "ecs_testing_intro" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+esper = "^1.2"
+attrs = "^19.3"
+
+[tool.poetry.dev-dependencies]
+black = "=18.6b4"
+mypy = "^0.740.0"
+pylint = "^2.4"
+pydocstyle = "^4.0"
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

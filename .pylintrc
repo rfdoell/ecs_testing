@@ -1,0 +1,3 @@
+[MASTER]
+# black will handle indentation; pylint shouldn't worry about it
+disable=bad-continuation
