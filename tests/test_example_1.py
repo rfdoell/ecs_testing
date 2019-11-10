@@ -4,8 +4,8 @@ import esper
 from ecs_testing_intro import example1
 
 
-def test_one_step() -> None:
-    """Test that a single propagation step is successful."""
+def test_one_step_x() -> None:
+    """Test that a single propagation step is successful in X."""
     # Create a world
     world = esper.World()
     some_entity = world.create_entity()
