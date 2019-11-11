@@ -54,8 +54,8 @@ class KinematicsProcessor(esper.Processor):  # type: ignore
 
     This processor will update all entities with centers of mass based on::
 
-      -->   -->          -->
-       x' =  x  +  dt  *  v
+       -->     -->          -->
+       x_1 =  x_0  +  dt  *  v
 
     where dt is a time quantity in seconds and passed in on creation.
 
