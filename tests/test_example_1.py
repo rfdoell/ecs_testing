@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """Provide basic tests for the first example module."""
 import esper
 

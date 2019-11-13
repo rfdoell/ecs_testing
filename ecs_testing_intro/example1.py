@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """Demonstrate basic Entity/Component/System usage."""
 import attr
 import esper
